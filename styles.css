@@ -8,6 +8,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #026C86;
+}
+
 .Header-main {
   display: flex;
   justify-content: space-between;
@@ -79,6 +84,10 @@ body {
   animation-name: fade;
 }
 
+.Characters-item:hover {
+  border: 2px solid #026C86;
+}
+
 .Characters-item img {
   width: 100%;
   height: auto;
@@ -120,3 +129,4 @@ body {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
